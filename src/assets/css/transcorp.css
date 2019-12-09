@@ -1,0 +1,740 @@
+@font-face {
+    font-family: Georgia;
+    src: url('../../assets/fonts/georgia/Georgia.ttf');
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url('../../assets/fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url('../../assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url('../../assets/fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+    font-family: "BodoniSvtyTwoITCTT";
+    src: url('../../assets/fonts/bodoni/bod72w--.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 55 Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 55 Roman'), url('../../assets/fonts/avenir/AvenirLTStd-Roman.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 55 Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 55 Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-Oblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 35 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light'), url('../../assets/fonts/avenir/AvenirLTStd-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 35 Light Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-LightOblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 45 Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 45 Book'), url('../../assets/fonts/avenir/AvenirLTStd-Book.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 45 Book Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 45 Book Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-BookOblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 65 Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 65 Medium'), url('../../assets/fonts/avenir/AvenirLTStd-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 65 Medium Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 65 Medium Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-MediumOblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 85 Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 85 Heavy'), url('../../assets/fonts/avenir/AvenirLTStd-Heavy.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 85 Heavy Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 85 Heavy Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-HeavyOblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 95 Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 95 Black'), url('../../assets/fonts/avenir/AvenirLTStd-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 95 Black Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 95 Black Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-BlackOblique.woff') format('woff');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir LT Std 55 Roman';
+}
+.newsletter-input, .select-date,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
+    outline:0px !important;
+    -webkit-appearance:none!important;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+}
+a{
+    text-decoration: none;
+}
+a:hover, a:focus, a:active{
+    text-decoration: none;
+}
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateX(0); }
+    50%  { transform: translatex(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.transcorp-landing-page{}
+.contact_us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e2e5;
+    padding: 0.5rem 0;
+}
+.contact_us p{
+    margin-bottom: 0;
+    font-size: 14px;
+    padding: 1rem;
+}
+.transcorp_logo{
+    width: 190px;
+}
+.banner{
+    background:linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../../assets/images/hotel.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 607px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-text{
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+.banner-text h6{
+    font-family: SourceSansPro-Bold;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.94px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 2rem;
+}
+.banner-text h1{
+    font-family: Georgia;
+    font-size: 52px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.06px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+.banner-text p{
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.82px;
+    text-align: center;
+    color: #ffffff;
+}
+.play-circle{
+    color: #ffffff;
+    font-size: 50px;
+    cursor: pointer;
+}
+.play-circle:hover{
+    color: #ff7200;
+}
+.check-in-section{
+    margin-top: 1.5rem;
+    margin-bottom: -5%;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.22);
+}
+.check-in{
+    background: #ffffff;
+    text-align: left;
+    border-right: 1px solid #ebebf2;
+    height: 150px;
+    width: 264px;
+    padding: 1.5rem;
+}
+.check_in{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+.check_in label{
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.58px;
+    text-align: left;
+    color: #9b9b9b;
+}
+.select-date{
+    border: none;
+    background: transparent;
+    color: #000000 !important;
+    font-family: BodoniSvtyTwoITCTT;
+}
+.vdatetime-input{
+    border: none;
+    background: transparent;
+    font-size: 40px;
+    width: 100%;
+    color: #000000 !important;
+font-family: BodoniSvtyTwoITCTT;
+}
+.chevron_down{
+    color: #000000;
+    margin-bottom: 0.8rem;
+}
+.check_in select{
+    background: none;
+    font-size: 40px;
+    color: #000000;
+    font-family: BodoniSvtyTwoITCTT;
+}
+.availability{
+    background-color: #053b58;
+    width: 264px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.availability p{
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.58px;
+    text-align: center;
+    color: #ffffff;
+    /*margin-bottom: 0;*/
+}
+.available-btn{
+    background-color: #ff7200;
+    color: #ffffff;
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.58px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.about-section{
+    text-align: center;
+    padding: 10rem 0 0;
+    margin-bottom: -20%;
+}
+.about-section h6{
+    font-family: SourceSansPro-Bold;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.94px;
+    text-align: center;
+    color: #9b9b9b;
+    padding-bottom: 2rem;
+}
+.about-section h1{
+    font-family: Georgia;
+    font-size: 52px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.06px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 2rem;
+}
+.about-section p{
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.82px;
+    text-align: center;
+    color: #9b9b9b;
+    padding: 0 10rem;
+    margin-bottom: 2rem;
+}
+.view-pictures img{
+    width: 70%;
+}
+.luxury-bg{
+    background-image: url("../../assets/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.view-more{
+    padding-top: 2rem;
+}
+.view-more-btn{
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.94px;
+    text-align: center;
+    color: #9b9b9b;
+    border-bottom: 1px solid #9b9b9b;
+}
+.view-more-btn:hover{
+    text-decoration: none;
+    color: #9b9b9b;
+}
+.luxury-interior{
+    padding-top: 20%;
+}
+.discover-rooms{
+    padding: 10% 20%;
+    background: #ffffff;
+    height: 100%;
+}
+.discover-rooms h6{
+    font-family: SourceSansPro-Bold;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.94px;
+    text-align: justify;
+    color: #9b9b9b;
+    padding-bottom: 1rem;
+}
+.discover-rooms h4{
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.12px;
+    color: #000000;
+    padding-bottom: 3rem;
+}
+.room_category{
+    height: 300px;
+    overflow-y: scroll;
+}
+.room_classic{
+    background-color: #f5f5f5;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.room_classic:hover{
+    background-color: #f5f5f5;
+}
+.room_classic2{
+    background-color: #ffffff;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.room_classic2:hover{
+    background-color: #f5f5f5;
+}
+.room-img img{
+    width: 100%;
+}
+.room-classic2 h5{
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #000000;
+}
+.room-classic2 p{
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.71px;
+    text-align: justify;
+    color: #b5b5b5;
+}
+.room-classic2 p span{
+    color: #000000;
+}
+.room-small-img img{
+    width: 100%;
+}
+.testimonials{
+    text-align: center;
+    background: #ffffff;
+    margin: 10% 0;
+    padding: 3rem;
+}
+.testimonials h5{
+    font-family: SourceSansPro-Bold;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.94px;
+    text-align: center;
+    color: #9b9b9b;
+    padding-bottom: 1rem;
+}
+.testimonials h2{
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.12px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 1rem;
+}
+.testimonials p{
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.46;
+    letter-spacing: 1.41px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 2rem;
+    margin: 0 15%;
+}
+.testimonials img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.testimonials h6{
+    font-family: SourceSansPro-Regular;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 2rem;
+}
+.blog-latest{
+    margin-bottom: 3rem;
+}
+.blog-latest h1{
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.12px;
+    text-align: center;
+    color: #4a4a4a;
+    padding-bottom: 3rem;
+}
+.blog-card{
+    background: #ffffff;
+    height: 100%;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.22);
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.blog-card:hover{
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.22);
+}
+.blog-latest img{
+    width: 100%;
+}
+.blog-card-text{
+    padding: 2rem;
+    text-align: left;
+}
+.blog-card-text h6{
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.82px;
+    color: #9b9b9b;
+}
+.blog-card-text p{
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.82px;
+    color: #000000;
+}
+.continue-btn{
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.82px;
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 1rem;
+    border-radius: 5px;
+}
+.continue-btn:hover{
+    border: 1px solid #000000;
+}
+.arrow_icon{
+    margin-left: 1rem;
+}
+
+.location-section{
+    padding: 3rem 0 0;
+}
+.address-location{
+    background: #ffffff;
+    padding: 10% 15%;
+    height: 100%;
+}
+.address-location h6{
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.94px;
+    text-align: justify;
+    color: #9b9b9b;
+    padding-bottom: 1rem;
+}
+.address-location h5{
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.12px;
+    color: #000000;
+    padding-bottom: 2rem;
+}
+.address-location h5 a{
+    text-decoration: none;
+    color: #000000;
+}
+.address-location h4{
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.41px;
+    color: #000000;
+    padding-bottom: 2rem;
+}
+.address-location p{
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: 0.82px;
+    color: #9b9b9b;
+    margin-bottom: 0;
+}
+.footer{
+    background-color: #211f20;
+    width: 100%;
+    padding: 3rem 2rem 1rem;
+}
+.sitemap {
+
+}
+.sitemap ul{
+    list-style-type: none;
+    padding: 0;
+}
+.sitemap ul li{
+    padding-bottom: 0.3rem;
+}
+.sitemap ul li a{
+    text-decoration: none;
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.39px;
+    color: #9b9b9b;
+
+}
+.sitemap ul li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.sitemap p{
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.39px;
+    color: #9b9b9b;
+}
+.newsletter{
+    border-bottom: 1px solid #9b9b9b;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.newsletter-input{
+    background: transparent;
+    border: none;
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.39px;
+    color: #9b9b9b;
+}
+.foot{
+    border-top: 1px solid #9b9b9b;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+.social{
+    padding: 1rem 0 1rem 1.5rem;
+}
+.social a{
+    text-decoration: none;
+    color: #9b9b9b;
+}
+.social a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.fb{
+    font-size: 25px;
+}
+.send_icon{
+    font-size: 20px;
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
