@@ -2,7 +2,7 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-3">
                     <div class="sitemap">
                         <ul>
                             <li><router-link to="">SIte Map</router-link></li>
@@ -13,7 +13,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-3">
                     <div class="sitemap">
                         <ul>
                             <li><router-link to="">Our Location</router-link></li>
@@ -23,7 +23,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-3">
                     <div class="sitemap">
                         <ul>
                             <li><router-link to="">FAQs</router-link></li>

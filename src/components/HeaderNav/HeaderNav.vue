@@ -8,7 +8,7 @@
             </select>
         </div>
         <b-navbar toggleable="lg" type="light" >
-<!--            <b-navbar-brand href="/"><img src="../../assets/images/transcorp.png" alt="Hope Bank Logo" class="hope_logo"></b-navbar-brand>-->
+            <b-navbar-brand href="/" class="d-lg-none"><img src="../../assets/images/transcorp.png" alt="Hope Bank Logo" class="transcorp_logo"></b-navbar-brand>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -21,7 +21,7 @@
                         <b-nav-item ><router-link to="">ABOUT</router-link></b-nav-item>
                         <b-nav-item ><router-link to="">OUR ROOMS</router-link></b-nav-item>
                     </b-navbar-nav>
-                    <b-navbar-brand href="/"><img src="../../assets/images/transcorp.png" alt="Transcorp Logo" class="transcorp_logo"></b-navbar-brand>
+                    <b-navbar-brand href="/" class="d-none d-lg-block"><img src="../../assets/images/transcorp.png" alt="Transcorp Logo" class="transcorp_logo"></b-navbar-brand>
                     <b-navbar-nav class="">
                         <b-nav-item class=""><router-link to=""><font-awesome-icon icon="lock" class="plus_icon"/> RESERVATIONS</router-link></b-nav-item>
                         <b-nav-item class=""><router-link to=""><font-awesome-icon icon="lock" class="plus_icon"/> BLOG</router-link></b-nav-item>
@@ -66,7 +66,10 @@
         padding-top: 7px;
     }
     .nav-item{
-        padding: 0 1.2rem;
+        padding: 0 2rem;
+    }
+    select{
+        background: none;
     }
 
 </style>
